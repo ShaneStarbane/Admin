@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hendryshanedeguia.freshcartadminapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activities.MainActivity"
+            android:screenOrientation="landscape">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.Accounts.Accounts" />
+        <activity android:name=".Activities.Accounts.Customers" />
+        <activity android:name=".Activities.Report_Inventory" />
+        <activity android:name=".Activities.Accounts.NewCustomer" />
+        <activity android:name=".Activities.NewProduct" />
+        <activity android:name=".Activities.Accounts.Drivers" />
+        <activity android:name=".Activities.Accounts.NewDriver" />
+        <activity android:name=".Activities.Orders" />
+        <activity android:name=".Activities.NewOrders" />
+        <activity android:name=".Activities.CancelledOrders" />
+        <activity android:name=".Activities.NewOrderDetails" />
+        <activity android:name=".Activities.DriversAvailable" />
+        <activity android:name=".Activities.AssignDriverToOrder" />
+        <activity android:name=".Activities.DoneAssigned" />
+        <activity android:name=".Activities.Accounts.CustomerInfo" />
+        <activity android:name=".Activities.Accounts.DriverInfo" />
+        <activity android:name=".Activities.ProductInfoDetails" />
+        <activity android:name=".Activities.CategoryInventory" />
+        <activity android:name=".Activities.CompletedOrders" />
+        <activity android:name=".Activities.ValidatedOrders" />
+        <activity android:name=".Activities.Sales"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Fresh Cart Admin App</string>
+    <string-array name="categories">
+        <item>Bakery</item>
+        <item>Beverages</item>
+        <item>Breakfast</item>
+        <item>Bulk</item>
+        <item>Canned Goods</item>
+        <item>Dairy and Eggs</item>
+        <item>Deli</item>
+        <item>Frozen</item>
+        <item>Household</item>
+        <item>International</item>
+        <item>Meat and Seafood</item>
+        <item>Pantry</item>
+        <item>Personal Care</item>
+        <item>Pets</item>
+        <item>Produce</item>
+        <item>Snacks</item>
+    </string-array>
+</resources>
